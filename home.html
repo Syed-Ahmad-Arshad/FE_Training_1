@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Restaurant | Adam Lane</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="item1"><span class="greytext">Rest</span>aurant</div>
+            <div class="item2"><img src="bellicon.png" class="bellicon"></div>
+            <div class="item3">
+                <span class="adamname">Adam Lane</span>
+                <img src="facepic.png" class="facepic">
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-item-1">
+                <div class="category-head">
+                    <span class="text">Categories</span>
+                    <span id="counter"></span>
+                </div>
+                <ul id="food-menu"></ul>
+            </div>
+            <div class="main-item-2">
+                <div class="searchbar">
+                    <div class="flex-container">
+                        <div class="row1">
+                            <img src="search.png" class="search">
+                            <span class="text">Search Item</span>
+                        </div>
+                        <div id="food-item-container">  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item-3">
+                <div class="cart-items-head">
+                    <span class="cart-items-text">
+                        Cart Items
+                    </span>
+                    <button id="btn-green">-
+                    </button>
+                    <img src="dots.png" class="dotspic">
+                </div>
+                <div id="no-items">
+                    No items in cart yet.
+                </div>
+                <div id="pricing-container">
+                </div>
+                <div id="total-price-container">
+                </div>
+                <button id="button-cancel">
+                    Cancel
+                </button>
+                <button id="button-proceed">
+                    Proceed
+                </button>
+            </div>
+        </main>
+        <script src="script.js">
+        </script>
+    </body>
+</html>

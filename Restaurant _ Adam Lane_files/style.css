@@ -1,0 +1,93 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 56px;
+    grid-template-columns: 19.01fr 1fr 2.83fr;
+    background-size: cover;
+}
+
+.header .item1 {
+    background-color: #fff;
+    padding-left: 32px;
+    padding-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header .item1 .greytext {
+    color:grey;
+}
+
+.header .item2 {
+    background-color: #54ad70;
+}
+
+.header .item2 .bellicon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .item3 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-column-gap: 0;
+    background-color: #5bbc79;
+    color: #fff;
+    font-family: Poppins-Light, Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 13px;
+}
+
+.header .item3 .facepic {
+    height: 28px;
+    width: 28px;
+    margin-left: 10px;
+    margin-top: 15px;;
+}
+
+.header .item3 .adamname {
+    margin-left: 16px;
+    margin-top: 21px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 1fr 1.636fr 2.359fr;
+    background-size: cover;
+}
+
+.main .main-item-1 {
+    background-color: pink;
+}
+
+.main .main-item-2 {
+    background-color: yellow;
+}
+
+.main .main-item-3 {
+    background-color: red;
+}
+.main .main-item-1 .category-head{
+    background-color: #edeff0;
+    height: 48px;
+    font-family: Poppins-Light; 
+    font-size: 15px;
+}
+
+.main .main-item-1 .category-head .text{
+    font-family: Poppins-Light; 
+    font-size: 15px;
+    margin-top: 10px;
+}
